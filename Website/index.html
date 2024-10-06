@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Deploy Faster</title>
+  <link rel="stylesheet" href="styles.css"> <!-- Link to your CSS file -->
+</head>
+<body>
+  <video class="video-background" autoplay loop muted>
+    <source src="Carl Sagan s Pale Blue Dot OFFICIAL.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+
+  <div class="container">
+    <h2 class="deploy-text">Seismic Detection Analysis</h2>
+    <p class="description">Upload CSV for Seismic Detection</p>
+    <div id="errorMessage" style="color: red; text-align: center;"></div> <!-- Error message div -->
+
+    <div class="file-upload-container">
+      <label for="csvFile" class="file-input-label">Choose CSV File</label>
+      <input type="file" id="csvFile" accept=".csv" class="file-input" />
+      <span id="fileName" class="file-name-display"></span> <!-- Display selected file name -->
+      <button id="uploadButton" class="upload-button">Upload</button>
+    </div>
+
+    <div id="spinner" class="spinner" style="display: none;">Processing...</div> <!-- Spinner and text for processing -->
+
+    <div class="grid">
+      <div class="card">
+        <div class="card-inner">
+          <div class="card-content">
+            <p id="chartTitle" class="card-title">Analysis Chart</p>
+            <p class="card-desc">Your analysis will be displayed here.</p>
+          </div>
+          <div class="image-container">
+            <img id="image" src="" style="display: none;" /> <!-- Initially hidden -->
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script> <!-- Link to the JavaScript file -->
+</body>
+</html>
