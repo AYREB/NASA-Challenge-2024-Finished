@@ -1,4 +1,4 @@
-IMAGES: 
+Our model was EXTREMELY accurate... View photos of our results here: https://drive.google.com/drive/folders/1pOnC3sicM7yjOkLnPF0cNde9aw6s4GUf?usp=sharing
 
 
 ### 🌋 Seismic Anomaly Detection
