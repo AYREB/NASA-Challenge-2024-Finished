@@ -1,5 +1,5 @@
-###### 🌋 Seismic Anomaly Detection
-## Welcome to the Seismic Anomaly Detection project! This repository contains a Flask-based web application and a local prediction script (predict.py) to identify seismic anomalies from uploaded CSV files. Use the live web app for a streamlined experience or run the predict.py script locally if the site is temporarily unavailable.
+### 🌋 Seismic Anomaly Detection
+# Welcome to the Seismic Anomaly Detection project! This repository contains a Flask-based web application and a local prediction script (predict.py) to identify seismic anomalies from uploaded CSV files. Use the live web app for a streamlined experience or run the predict.py script locally if the site is temporarily unavailable.
 
 ### 🔗 Live Website
 #The Flask app is available here: https://nasa.thebayre.com.
