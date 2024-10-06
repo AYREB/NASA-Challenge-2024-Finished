@@ -196,12 +196,3 @@ plt.ylabel('Velocity')
 plt.legend()
 # Show the plot
 plt.show()
-
-
-
-
-
-
-
-
-
